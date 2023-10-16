@@ -1,0 +1,153 @@
+% Metódy inžinierskej práce
+
+\documentclass[10pt,twoside,slovak,a4paper]{article}
+
+\usepackage[slovak]{babel}
+%\usepackage[T1]{fontenc}
+\usepackage[IL2]{fontenc} % lepšia sadzba písmena Ľ než v T1
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{url} % príkaz \url na formátovanie URL
+\usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
+
+\usepackage{cite}
+%\usepackage{times}
+
+\pagestyle{headings}
+
+\title{Kinds of disinformation and the issue of the reliability of information on the internet\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2023/24, vedenie: Vladimír Mlynarovič}} % meno a priezvisko vyučujúceho na cvičeniach
+
+\author{Margaréta Strýčková\\[2pt]
+	{\small Slovenská technická univerzita v Bratislave}\\
+	{\small Fakulta informatiky a informačných technológií}\\
+	{\small \texttt{xstryckovam@stuba.sk}}
+	}
+
+\date{\small 5.november 2023} % upravte
+
+
+
+\begin{document}
+
+\maketitle
+
+
+
+
+
+\section{Introduction}
+
+
+In today's digital age, the internet overflows with information, but telling what's true from what's false can be tricky. There is a problem: different kinds of false information are all over the web. Some are sneaky, tweaking the facts, while others just make things up. This article is your guide into this world of internet falsehoods. We'll talk about different ways people can spread false information online and the big issue of figuring out what information you can trust in this sea of digital data.
+
+
+
+
+
+\section{Nejaká časť} \label{nejaka}
+
+Z obr.~\ref{f:rozhod} je všetko jasné. 
+
+\begin{figure*}[tbh]
+\centering
+%\includegraphics[scale=1.0]{diagram.pdf}
+Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
+\caption{Rozhodujúci argument.}
+\label{f:rozhod}
+\end{figure*}
+
+
+
+\section{Iná časť} \label{ina}
+
+Základným problémom je teda\ldots{} Najprv sa pozrieme na nejaké vysvetlenie (časť~\ref{ina:nejake}), a potom na ešte nejaké (časť~\ref{ina:nejake}).\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
+
+Môže sa zdať, že problém vlastne nejestvuje\cite{Coplien:MPD}, ale bolo dokázané, že to tak nie je~\cite{Czarnecki:Staged, Czarnecki:Progress}. Napriek tomu, aj dnes na webe narazíme na všelijaké pochybné názory\cite{PLP-Framework}. Dôležité veci možno \emph{zdôrazniť kurzívou}.
+
+
+\subsection{Types of Misinformation and Disinformation:} \label{ina:Types}
+
+
+\cite{pdf-factsheet}
+%Niekedy treba uviesť zoznam:
+
+%\begin{itemize}
+%\item jedna vec
+%\item druhá vec
+	%\begin{itemize}
+	%\item x
+	%\item y
+	%\end{itemize}
+%\end{itemize}
+
+%Ten istý zoznam, len číslovaný:
+
+\begin{enumerate}
+\item \textbf{Fabricated Content:} Completely false content;
+\item \textbf{Manipulated Content:} Genuine information or imagery that has been distorted, e.g. a 
+sensational headline or populist ‘click bait’;
+\item \textbf{Imposter Content:} Impersonation of genuine sources, e.g. using the branding of an established 
+agency;
+\item \textbf{Misleading Content:} Misleading information, e.g. comment presented as fact;
+\item \textbf{False Context:} Factually accurate content combined with false contextual information, e.g. when 
+the headline of an article does not reflect the content;
+\item \textbf{Satire and Parody:} Humorous but false stores passed off as true. There is no intention to harm 
+but readers may be fooled;
+\item \textbf{False Connections:} When headlines, visuals or captions do not support the content;
+\item \textbf{Sponsored Content:} Advertising or PR disguised as editorial content;
+\item \textbf{Propaganda:} Content used to manage attitudes, values and knowledge;
+\item \textbf{Error:} A mistake made by established new agencies in their reporting. 
+	
+\end{enumerate}
+
+
+\subsection{Ešte nejaké vysvetlenie} \label{ina:este}
+
+\paragraph{Veľmi dôležitá poznámka.}
+Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom.
+
+
+
+\section{Dôležitá časť} \label{dolezita}
+
+
+
+
+\section{Ešte dôležitejšia časť} \label{dolezitejsia}
+
+
+
+
+\section{Záver} \label{zaver} % prípadne iný variant názvu
+
+
+\section{Sources}
+
+
+\url{https://www.unhcr.org/innovation/wp-content/uploads/2022/02/Factsheet-4.pdf}
+\vspace{12pt}
+
+\url{https://www.bundesregierung.de/breg-de/schwerpunkte/umgang-mit-desinformation/disinformation-definition-1911048}
+\vspace{12pt}
+
+\url{https://www.dictionary.com/e/misinformation-vs-disinformation-get-informed-on-the-difference/}
+\vspace{12pt}
+
+\url{https://commonslibrary.org/disinformation-and-7-common-forms-of-information-disorder/}
+\vspace{12pt}
+
+\url{https://guides.lib.uiowa.edu/c.php?g=849536&p=6077637}
+\vspace{12pt}
+
+\url{https://www.unhcr.org/innovation/wp-content/uploads/2022/02/Using-Social-Media-in-CBP-Chapter-6-Rumours-and-Misinformation.pdf}
+
+
+
+%\acknowledgement{Ak niekomu chcete poďakovať\ldots}
+
+
+% týmto sa generuje zoznam literatúry z obsahu súboru literatura.bib podľa toho, na čo sa v článku odkazujete
+\bibliography{article}
+\bibliographystyle{plain} % prípadne alpha, abbrv alebo hociktorý iný
+\end{document}
+
